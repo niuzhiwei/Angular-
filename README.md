@@ -26,10 +26,10 @@ Angular学习笔记
       var name:string
   
   声明函数时，也可以为函数参数和返回值制定类型：           
-                          
-                          
+                                              
     function greetText(name:string):string{
     return 'Hello'+name;
     }
     
+      
   
