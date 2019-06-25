@@ -6,4 +6,9 @@ Angular学习笔记
 #### names:string[] 这种语法表示names的类型是string构成的数组，它的另一种写法是Array<string>
 #### @input可以接受从父模板传进来的值 @Input() name:string;
 #### 为了把一个值传入组件，就要在模板中使用方括号[]语法,[name]="name",在Angular中，添加一个带方括号的属性意味着把一个值传给该组件上同名的输入属性。
-#### 
+#### NgModule注解有三个属性：declarations,imports和bootstrap
+  declarations指定了在该模块中定义的组件。使用ng generate时，会自动把生成的组件添加到这个列表里。
+  Angular中的一个重要思想：想要在模板中使用一个组件，必须在NgModule中声明它。
+  imports描述了该模块有哪些依赖。我们正在创建一个浏览器应用，因此要导入BrowserModlue。
+  bootstrap告诉Angular,当使用该模块引导应用时，我们要把AppComponent加载为顶层组件。
+  
