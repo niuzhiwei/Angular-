@@ -13,5 +13,10 @@ Angular学习笔记
   bootstrap告诉Angular,当使用该模块引导应用时，我们要把AppComponent加载为顶层组件。
 #### 在input标签上使用了#(hash)来要求Angular把该元素赋值给一个局部变量。  
 #### 在@Component中传入了一个选项：host:{class:'row'}.它告诉Angular：我们要在宿主元素上设置class属性，使其具有row类。
-#### 
+#### TypeScript相对于ES5有五大改善：
+  . 类型
+  . 类
+  . 注解
+  . 模块导入
+  . 语言工具包（比如解构）
   
