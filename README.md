@@ -36,6 +36,26 @@ Angular学习笔记
   var jobs:Array<string>=['IBM','Microsoft','Google'];
   var jobs:string[]=['Apple','Dell','HP']
   ```
+  #### 枚举是一组可命名数值的集合。比如，如果我们想拿到某人的一系列角色，可以这么写：
+  ```
+  enum Role {Employee,Manager,Admin};
+  var role:Role=Role.Employee;
+  ```
+  默认情况下，枚举类型的初始值是0.我们也可以调整初始化值的范围：
+  ```
+  enum Role {Employee=3,Manager,Admin};
+  var role:Role = Role.Employee;
+  ```
+  在上面的代码中，Employee的初始值被设置为3而不是0.枚举中其他项的值是依次递增的，意味着Manager的值为4，Admin的值为5.同样，我们也可以单独为枚举中的每一项指定值：
+  ```
+  enum Role {Employee=3,Manageer=5,Admin=7};
+  var role:Role = Role.Employee;
+  ```
+  还可以从枚举的值来反查它的名称：
+  ```
+  enum Role {Employee,Manager,Admin};
+  console.log('Roles:',Role[0],Role[1])
+  ```
     
     
     
