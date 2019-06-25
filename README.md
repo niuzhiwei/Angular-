@@ -14,6 +14,7 @@ Angular学习笔记
 #### 在input标签上使用了#(hash)来要求Angular把该元素赋值给一个局部变量。  
 #### 在@Component中传入了一个选项：host:{class:'row'}.它告诉Angular：我们要在宿主元素上设置class属性，使其具有row类。
 #### TypeScript相对于ES5有五大改善：
+  
   · 类型
   · 类
   · 注解
