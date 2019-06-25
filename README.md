@@ -16,7 +16,6 @@ Angular学习笔记
 #### TypeScript相对于ES5有五大改善：
   
   - 类型
-  
   - 类
   
   - 注解
