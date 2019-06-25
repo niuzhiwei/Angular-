@@ -56,7 +56,19 @@ Angular学习笔记
   enum Role {Employee,Manager,Admin};
   console.log('Roles:',Role[0],Role[1])
   ```
-    
+  #### 任意类型，如果我们没有为变量指定类型，那它的默认类型就是any.在TS中，any类型的变量能够接收任意类型的数据:
+  ```
+  var something:any='as string';
+  something = 1;
+  something = [1,2,3];
+  ```
+  #### "无"类型：void意味着我们不期望那里有类型。它通常用作函数的返回值，表示没有任何返回值:
+  ```
+  function someting(name:string):void{
+  this.name = name
+  }
+  ```
+  
     
     
       
