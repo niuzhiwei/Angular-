@@ -31,5 +31,13 @@ Angular学习笔记
     return 'Hello'+name;
     }
     ```
+ #### 数组用Array类型表示。然而，因为数组是一组相同数据类型的集合，所以我们还需要为数组中的条目制定一个类型。我们可以用Array<type>或者type[]语法来为数组条目指定元素类型：
+  ```
+  var jobs:Array<string>=['IBM','Microsoft','Google'];
+  var jobs:string[]=['Apple','Dell','HP']
+  ```
+    
+    
+    
       
   
