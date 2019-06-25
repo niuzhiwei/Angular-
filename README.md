@@ -11,4 +11,7 @@ Angular学习笔记
   Angular中的一个重要思想：想要在模板中使用一个组件，必须在NgModule中声明它。
   imports描述了该模块有哪些依赖。我们正在创建一个浏览器应用，因此要导入BrowserModlue。
   bootstrap告诉Angular,当使用该模块引导应用时，我们要把AppComponent加载为顶层组件。
+#### 在input标签上使用了#(hash)来要求Angular把该元素赋值给一个局部变量。  
+#### 在@Component中传入了一个选项：host:{class:'row'}.它告诉Angular：我们要在宿主元素上设置class属性，使其具有row类。
+#### 
   
