@@ -69,7 +69,9 @@ Angular学习笔记
   }
   ```
   
-  ```
+  #### 示例代码：
+  
+ ```
   class Product {
   constructor(
   public sku:string,
@@ -77,9 +79,9 @@ Angular学习笔记
   public imageUrl:string,
   public department:string[],
   public price:number){
+    }
   }
-  }
-  ```
+ ```
   
     
     
