@@ -108,7 +108,11 @@ new Product({sku:'MYHAT',name:'A green hat'})
   ...
   (onProductSelect)='productWasSelected($event)'>
 ```
-
+意思是我们要监听ProductsList组件的onProductSelected输出。
+也就是说：
+- (onProductSelected),即=号左边是我们要监听的输出的名称；
+- 'productWasSelected',即=号右边是当有新的输入时我们想要调用的方法；
+- $event在这里是一个特殊的变量，用来表示输出的内容。
 
   
     
