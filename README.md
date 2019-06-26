@@ -127,7 +127,19 @@ name:string;
 age:number;
 }
 ```
-  
+name和age输入分别对应于MyComponent类的实例中的name和age属性。
+指定组件接收一个输入参数的另一种方式是使用@Input注解。你可以先导入Input，然后把@Input()添加到属性声明上，代码如下：
+```
+@Component({
+selector:'my-component'
+})
+class MyComponent{
+@Input() name:string;
+@Input() age:number;
+}
+```
+#####你可以任意选择这两种方式之一来提供输入属性，它们的效果是一样的。
+
     
     
       
