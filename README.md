@@ -82,6 +82,11 @@ Angular学习笔记
     }
   }
  ```
+ 
+上面的代码创建了一个名叫Product的类，这个类的构造函数接收5个参数。public sku:string这行代码有两个意思：
+- 这个类 实例有一个名为sku的公共属性；
+- sku的类型是string
+
   
     
     
