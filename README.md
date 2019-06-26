@@ -87,6 +87,24 @@ Angular学习笔记
 - 这个类 实例有一个名为sku的公共属性；
 - sku的类型是string
 
+一般情况下，我们应该不会像一个函数传递超过5个参数。另一种做法是将Product类的构造函数修改为接收一个配置对象，这样就可以不必记住参数的顺序了。如果这样做，我们就可以像这样编写Product类的代码：
+```
+new Product({sku:'MYHAT',name:'A green hat'})
+```
+#### Angular组件的一个核心特性：输入/输出，方括号[]用来传递输入，圆括号()用来处理输出。
+```
+<products-list
+  [productList]='products'
+```
+这就是在使用ProductsList组件的输入，这个元素属性分为两个部分：
+- [productList](=号左边)
+- 'products'(=号右边)
+左边的[productList]是指，我们希望在product-list组件中设置名为productList的输入。
+右边的'products'是指，我们希望将输入设置为products表达式的值。
+
+
+
+
   
     
     
