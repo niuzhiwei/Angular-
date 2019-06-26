@@ -97,7 +97,7 @@ new Product({sku:'MYHAT',name:'A green hat'})
   [productList]='products'
 ```
 这就是在使用ProductsList组件的输入，这个元素属性分为两个部分：
-- [productList](=号左边)
+-  [productList](=号左边)
 - 'products'(=号右边)
 左边的[productList]是指，我们希望在product-list组件中设置名为productList的输入。
 右边的'products'是指，我们希望将输入设置为products表达式的值。
