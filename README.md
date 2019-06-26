@@ -103,6 +103,11 @@ new Product({sku:'MYHAT',name:'A green hat'})
 右边的'products'是指，我们希望将输入设置为products表达式的值。
 
 
+```
+<products-list
+  ...
+  (onProductSelect)='productWasSelected($event)'>
+```
 
 
   
